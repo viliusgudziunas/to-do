@@ -1,8 +1,8 @@
 # React Template
 
-### I use this template to quickly start my React projects
-
 ### Other react templates are in other branches
+
+### I use these templates to quickly start my React projects
 
 ## This template contains:
 
