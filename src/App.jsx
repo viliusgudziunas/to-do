@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
 
 function App() {
   return (
-    <div>
-      <header>React Template</header>
-    </div>
+    <Container>
+      <Row>React Template</Row>
+    </Container>
   );
 }
 

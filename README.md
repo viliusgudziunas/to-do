@@ -11,3 +11,4 @@
 - Initial setup - create-react-app
 - Linting - ESLint, Prettier & Airbnb Style Guide
 - State Management - Redux
+- UI Framework - React Bootstrap
