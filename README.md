@@ -1,7 +1,9 @@
 # React Template
 
-### I use this template to quickly start my React projects
+### I use these template to quickly start my React projects
 
-## Created With
+### Other react templates are in other branches
+
+## This template contains:
 
 - Initial setup - create-react-app
