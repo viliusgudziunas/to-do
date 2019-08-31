@@ -7,3 +7,4 @@
 ## This template contains:
 
 - Initial setup - create-react-app
+- Linting - ESLint, Prettier & Airbnb Style Guide
