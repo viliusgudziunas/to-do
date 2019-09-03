@@ -1,0 +1,26 @@
+.Todo-button {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 1%;
+  background-color: #8e8d8a;
+  border-color: #8e8d8a;
+}
+.Todo-button:hover {
+  background-color: #e98074;
+  border-color: #e98074;
+}
+.Todo-button:enabled {
+  box-shadow: none;
+}
+.Todo-button:active {
+  box-shadow: none !important;
+  background-color: #e85a4f !important;
+  border-color: #e85a4f !important;
+}
+
+.Todo-button-completed {
+  text-decoration: line-through;
+}
+.Todo-button-completed:hover {
+  text-decoration: line-through;
+}

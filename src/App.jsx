@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import TodoList from './components/TodoList/TodoList';
 
 function App() {
   return (
-    <Container>
-      <Row>React Template</Row>
-    </Container>
+    <>
+      <TodoList />
+    </>
   );
 }
 
