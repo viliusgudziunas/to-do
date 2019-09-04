@@ -6,7 +6,7 @@
 - Linting - ESLint, Prettier & Airbnb Style Guide
 - State Management - Redux
 - UI Framework - React Bootstrap
-- Fake API - https://jsonplaceholder.typicode.com/guide.html
+- Fake API - https://jsonplaceholder.typicode.com
 
 #### To run this app
 
