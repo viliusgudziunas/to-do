@@ -1,0 +1,12 @@
+.TodoList-container {
+  background-color: #d8c3a5;
+  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  box-shadow: 1px 1px 5px 2px;
+}
+
+.TodoList-todos-container {
+  border-top: 1px solid black;
+  padding-top: 2%;
+}
