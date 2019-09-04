@@ -1,14 +1,14 @@
-# React Template
+# ToDo App
 
-### Currently, this is the main template
+### A small ToDo App that I created using
 
-### Other react templates are in other branches
-
-### I use these templates to quickly start-up my React projects
-
-## This template contains:
-
-- Initial setup - create-react-app
+- Template - https://github.com/viliusgudziunas/react-startup-template.git
 - Linting - ESLint, Prettier & Airbnb Style Guide
 - State Management - Redux
 - UI Framework - React Bootstrap
+- Fake API - https://jsonplaceholder.typicode.com/guide.html
+
+#### To run this app
+
+- npm install
+- npm start
