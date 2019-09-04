@@ -1,18 +1,21 @@
-.Todo-button {
-  text-align: left;
-  width: 100%;
+.Todo-row {
   margin-bottom: 1%;
+}
+
+.Todo-complete-button {
+  text-align: left;
+  width: 95%;
   background-color: #8e8d8a;
   border-color: #8e8d8a;
 }
-.Todo-button:hover {
+.Todo-complete-button:hover {
   background-color: #e98074;
   border-color: #e98074;
 }
-.Todo-button:enabled {
+.Todo-complete-button:enabled {
   box-shadow: none;
 }
-.Todo-button:active {
+.Todo-complete-button:active {
   box-shadow: none !important;
   background-color: #e85a4f !important;
   border-color: #e85a4f !important;
@@ -23,4 +26,10 @@
 }
 .Todo-button-completed:hover {
   text-decoration: line-through;
+}
+
+.Todo-delete-button {
+  width: 5%;
+  padding: 0;
+  border-radius: 0.25rem;
 }

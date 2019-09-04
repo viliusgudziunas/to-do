@@ -6,16 +6,24 @@ import NewTodoForm from '../NewTodoForm/NewTodoForm';
 import Todo from '../Todo/Todo';
 import TodoHeader from '../TodoHeader/TodoHeader';
 import { fetchTodosAction } from '../../actions/todosActions';
+import { setUserIdAction } from '../../actions/userActions';
 
 const TodoList = () => {
-  const [maxTodoId, setMaxTodoId] = useState(0);
   const dispatch = useDispatch();
+  const [maxTodoId, setMaxTodoId] = useState(0);
 
   useEffect(() => {
-    dispatch(fetchTodosAction());
+    dispatch(setUserIdAction(1));
   }, [dispatch]);
 
+  const userId = useSelector(state => state.userId.userId);
+
+  useEffect(() => {
+    dispatch(fetchTodosAction(userId));
+  }, [dispatch, userId]);
+
   const todos = useSelector(state => state.todos.items);
+
   useEffect(() => {
     setMaxTodoId(Math.max(...todos.map(todo => todo.id)));
   }, [todos]);
@@ -24,7 +32,7 @@ const TodoList = () => {
     <Container className="TodoList-container">
       <TodoHeader />
       <NewTodoForm maxTodoId={maxTodoId} />
-      <Container>
+      <Container className="TodoList-todos-container">
         {todos.map(todo => {
           return <Todo key={todo.id} todo={todo} />;
         })}
